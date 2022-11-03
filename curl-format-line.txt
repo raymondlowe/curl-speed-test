@@ -1,0 +1,3 @@
+url_effective,http_code, http_connect, time_total, time_namelookup, time_connect, time_appconnect, time_pretransfer, time_redirect, time_starttransfer, size_download, size_upload, size_header, size_request, speed_download, speed_upload, content_type, num_connects, num_redirects \n
+%{url_effective},%{http_code},%{http_connect},%{time_total},%{time_namelookup},%{time_connect},%{time_appconnect},%{time_pretransfer},%{time_redirect},%{time_starttransfer},%{size_download},%{size_upload},%{size_header},%{size_request},%{speed_download},%{speed_upload},%{content_type},%{num_connects},%{num_redirects}\n
+
